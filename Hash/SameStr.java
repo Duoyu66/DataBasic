@@ -22,7 +22,7 @@ public class SameStr {
                 }else{
                     return false;
                 }
-                //如果二者都不存在就判断映射是否相同，如果不同，直接false
+                //如果二者都不存在就判断映射是否相同，如果不同，直接返回false
             }else if(map.get(s.charAt(i)) != t.charAt(i)) return false;
         }
         return true;
