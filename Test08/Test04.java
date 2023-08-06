@@ -24,7 +24,7 @@ public class Test04 {
         return arr;
     }
 
-    //二分排序练习
+    //二分排序
     public int search(int[] nums, int target) {
         int left = 0,right = nums.length-1;
 
